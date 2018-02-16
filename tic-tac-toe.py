@@ -120,7 +120,6 @@ if option == 1:
             s = player(choice)
             if s:
                 print_board()
-                s = s.split(',')
                 print("\n*********Congratulations!!********\n  YOU win along positions: {}".format(s[1]))
                 break
     else:
